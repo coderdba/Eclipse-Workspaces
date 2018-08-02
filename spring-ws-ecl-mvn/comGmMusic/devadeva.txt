@@ -1,0 +1,4 @@
+s.2,r.1,r.1,g,m,p,p,p,p,m,g,m,p.2,
+p,d,p.2,p,p,m,m,g,m,g,m,p,g,m,g,r,s,n0,
+p,d,p.2,p,p,m,m.-1,g.-1,m.-1,g.-1,m,p,g,m,g,r,s,n0,
+p.2,d,p.2,p,m,d,p.-1,p.-1,m.-1,g.-1,m,p,

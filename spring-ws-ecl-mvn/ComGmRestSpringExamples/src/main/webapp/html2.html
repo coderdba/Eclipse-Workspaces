@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form name="form_puc"; method="post" action="pu_app_send.php">
+<h2 align="center"> PU APPLICAITON FORM</h2>
+
+<table border=5 bordercolor="blue" bgcolor="peachpuff" 
+       cellspacing="5" cellpadding="5" align="center">
+
+<tr> 
+<td align="left">Student Name</td>
+<td><input type="text" name="StdName"></td>
+</tr>
+
+<tr> 
+<td align="left">Attach File Containing Photo</td>
+<td><input type="file" name="file1"></td>
+</tr>
+
+<tr> 
+<td align="left">Date of Birth</td>
+<td><input type="text" name="DOB"></td>
+</tr>
+
+<tr> 
+<td align="left">Gender</td>
+<td>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+</td>
+</tr>
+
+<tr> 
+<td align="left">Indicate the Board Passed</td>
+<td>
+<select name="dropDown" size="4" id="qualificaiton">
+<option value="1">SSLC</option>
+<option value="2">CBSE</option>
+<option value="3">ICSE</option>
+<option value="4">Other</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td align="left"> Category </td>
+<td align="left">
+<select name="dropdown2">
+<option value="GM"> GM </option>
+<option value="CAT-3A"> CAT-3A </option>
+<option value="CAT-3B"> CAT-3B </option>
+<option value="CAT-2A"> CAT-2A </option>
+<option value="CAT-2B"> CAT-2B </option>
+<option value="CAT-1"> CAT-1 </option>
+<option value="CAT-SC"> SC </option>
+<option value="CAT-ST"> ST </option>
+</select>
+</td>
+</tr>
+
+<tr> 
+<td align="left">Student Address</td>
+<td><textarea rows="5" cols="15" name="address"></textarea>
+<p>Enter the contact address with pin code</p>
+</td>
+</tr>
+
+<tr> 
+<td align="left">Email</td>
+<td><input type="text" name="email"></td>
+</tr>
+
+<tr>
+<td colspan=2 align="left">
+<input type="checkbox" name="sub1" value="phy"> Physics
+<input type="checkbox" name="sub2" value="chem"> Chemistry
+<input type="checkbox" name="sub3" value="math"> Maths
+<input type="checkbox" name="sub4" value="comp"> Comp Sc
+<input type="checkbox" name="sub5" value="ele"> Electronics
+<input type="checkbox" name="sub6" value="bio"> Biology
+</td>
+</tr>
+
+<tr>
+<td align="left"> Category: </td>
+<td align="left"><input type="text" name="category">
+<select name="dropdown">
+<option value="GM"> GM </option>
+<option value="CAT-3A"> CAT-3A </option>
+<option value="CAT-3B"> CAT-3B </option>
+<option value="CAT-2A"> CAT-2A </option>
+<option value="CAT-2B"> CAT-2B </option>
+<option value="CAT-1"> CAT-1 </option>
+<option value="CAT-SC"> SC </option>
+<option value="CAT-ST"> ST </option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="button" value="submit" align="right">
+</td>
+<td>
+<input type="button" value="reset" align="center">
+</td>
+<tr>
+
+</table>
+
+</form>
+
+</body>
+</html>

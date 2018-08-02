@@ -1,0 +1,6 @@
+s,r,m.2,g,r,s,r,g,r,s.2,
+r,m,p,d,m,p,d,p,m,g,r,s,
+s,r,m.2,g,r,s,r,g,r,s.2,
+s2,r2,m2.2,g2,r2,s2,r2,g2,r2,s2.2,
+r0,m0,p0,d0,m0,p0,d0,p0,m0,g0,r0,s0,
+s,r,m.2,g,r,s,r,g,r,s.2,
