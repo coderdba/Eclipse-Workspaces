@@ -2,7 +2,8 @@ git config user.email coderdba@coder.com
 git config user.name coderdba
 
 echo "# Eclipse-Workspaces" >> README.md
-#git init
+git init
+cp ./config .git/.
 #git add README.md
 git add .
 git commit -m "first commit"
