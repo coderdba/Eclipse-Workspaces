@@ -9,7 +9,8 @@ public class PlaySong {
 		//System.out.println("Printing note: " + notesLocal.getNotesIndex().get("s"));
 		
 		//SongFilePlayer songFilePlayer = new SongFilePlayer("sarimagari.txt", "mayamalavagaula");
-		SongFilePlayer songFilePlayer = new SongFilePlayer("sarimagari.txt");
+		//SongFilePlayer songFilePlayer = new SongFilePlayer("sarimagari.txt");
+		SongFilePlayer songFilePlayer = new SongFilePlayer("jaibharatajananiya.txt");
 		
 		songFilePlayer.playSong();
 
