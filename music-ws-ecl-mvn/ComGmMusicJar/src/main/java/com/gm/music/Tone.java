@@ -53,9 +53,16 @@ public class Tone {
 				      
 			//buf[0] = (byte)((Math.pow(sinAngle1, 3) + Math.sin(angle2)) * volume); // new orig
 			//buf[0] = (byte)((Math.pow(cosAngle1, 3) + Math.pow(sinAngle1, 3) + Math.sin(angle2)) * volume); // new orig
+			//buf[0] = (byte)((Math.pow(cosAngle1, 3) + Math.pow(sinAngle1, 3) + Math.sin(angle2+.3)) * volume); // new orig
+
 			//buf[0] = (byte)((Math.pow(sinAngle1, 3) + Math.sin(angle2) + Math.sin(angle3)) * volume);
 			//buf[0] = (byte)((Math.pow(cosAngle1,106) + Math.sin(angle2)) * volume); //good
-			buf[0] = (byte)((Math.pow(cosAngle1,6) + Math.sin(angle2)) * volume); //good	      
+			
+			buf[0] = (byte)((Math.pow(cosAngle1,6) + Math.sin(angle2)) * volume); //good (standard)  
+			
+			//buf[0] = (byte)((Math.pow(cosAngle1,6) + Math.sin(angle2+.1) + Math.sin(angle2+.4)) * volume); //    
+
+			
 			sourceDL.write(buf,0,1);
 				     
 			}
