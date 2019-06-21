@@ -22,6 +22,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/dbgsm0/opt/kafka_2.10-0.10.0.0/libs/kafka-clients-0.10.0.0.jar"/>
+	<classpathentry kind="lib" path="/Users/username/opt/kafka_2.10-0.10.0.0/libs/kafka-clients-0.10.0.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
