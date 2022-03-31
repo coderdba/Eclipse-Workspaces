@@ -26,8 +26,8 @@
 	<dependency>
   	  	<groupId>org.springframework.boot</groupId>
     	<artifactId>spring-boot-starter-web</artifactId>
-    	<version>1.5.2.RELEASE</version>
-    	<!--  <version>1.5.2.RELEASE</version> -->
+    	<version>2.5.12</version>
+    	<!--  <version>2.5.12</version> -->
 	</dependency>
 	
 	<!-- https://www.mkyong.com/spring-boot/spring-boot-jdbc-oracle-database-commons-dbcp2-example/  -->
